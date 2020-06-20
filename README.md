@@ -39,5 +39,7 @@
 * 路由對路由的介面採用 Serial 方式傳輸
 
 預設將啟動介面上的 HDLC 封裝功能。
+
+https://zh.wikipedia.org/wiki/高级数据链路控制
       
  
