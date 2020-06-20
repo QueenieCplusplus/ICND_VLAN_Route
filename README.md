@@ -5,7 +5,7 @@
                                                                            Router
                                                                              | 
                                                                              |
-                                                                          serail
+                                                                         serail 序列式介面
     Vlan - Core Switch (ISL interface) ---------------(ISL interface)- Router on a stick -(ISL interface)---------------(ISL interface) Core Switch - Vlan
 
 虛擬區域網路與其他區域網路一樣，需要依賴第三層網路設備，方能彼此溝通傳遞訊息。
@@ -35,5 +35,9 @@
 啟動介面的 ISL 資料封裝功能。
 
       Router(config-subif)# encapsulation isl + < vlan# >
+      
+* 路由對路由的介面採用 Serial 方式傳輸
+
+預設將啟動介面上的 HDLC 封裝功能。
       
  
